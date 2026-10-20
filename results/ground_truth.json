@@ -1,0 +1,158 @@
+{
+  "dpo_01.jpg": {
+    "image_path": "dataset\\original\\dpo_01.jpg",
+    "width": 348,
+    "height": 846,
+    "bboxes": [
+      [
+        150,
+        55,
+        317,
+        222
+      ]
+    ]
+  },
+  "dpo_02.jpg": {
+    "image_path": "dataset\\original\\dpo_02.jpg",
+    "width": 716,
+    "height": 887,
+    "bboxes": [
+      [
+        101,
+        203,
+        614,
+        716
+      ]
+    ]
+  },
+  "dpo_03.jpg": {
+    "image_path": "dataset\\original\\dpo_03.jpg",
+    "width": 810,
+    "height": 1440,
+    "bboxes": [
+      [
+        75,
+        357,
+        727,
+        1009
+      ]
+    ]
+  },
+  "dpo_04.jpg": {
+    "image_path": "dataset\\original\\dpo_04.jpg",
+    "width": 480,
+    "height": 600,
+    "bboxes": [
+      [
+        73,
+        147,
+        409,
+        483
+      ]
+    ]
+  },
+  "dpo_05.jpg": {
+    "image_path": "dataset\\original\\dpo_05.jpg",
+    "width": 591,
+    "height": 591,
+    "bboxes": [
+      [
+        171,
+        32,
+        427,
+        288
+      ]
+    ]
+  },
+  "dpo_06.jpg": {
+    "image_path": "dataset\\original\\dpo_06.jpg",
+    "width": 480,
+    "height": 600,
+    "bboxes": [
+      [
+        76,
+        149,
+        406,
+        479
+      ]
+    ]
+  },
+  "dpo_07.jpg": {
+    "image_path": "dataset\\original\\dpo_07.jpg",
+    "width": 996,
+    "height": 1245,
+    "bboxes": [
+      [
+        126,
+        283,
+        867,
+        1024
+      ]
+    ]
+  },
+  "dpo_08.jpg": {
+    "image_path": "dataset\\original\\dpo_08.jpg",
+    "width": 904,
+    "height": 1600,
+    "bboxes": [
+      [
+        169,
+        405,
+        611,
+        847
+      ]
+    ]
+  },
+  "dpo_09.jpg": {
+    "image_path": "dataset\\original\\dpo_09.jpg",
+    "width": 780,
+    "height": 624,
+    "bboxes": [
+      [
+        264,
+        89,
+        645,
+        470
+      ]
+    ]
+  },
+  "dpo_10.jpg": {
+    "image_path": "dataset\\original\\dpo_10.jpg",
+    "width": 480,
+    "height": 600,
+    "bboxes": [
+      [
+        72,
+        139,
+        410,
+        477
+      ]
+    ]
+  },
+  "dpo_11.jpg": {
+    "image_path": "dataset\\original\\dpo_11.jpg",
+    "width": 480,
+    "height": 600,
+    "bboxes": [
+      [
+        62,
+        131,
+        425,
+        494
+      ]
+    ]
+  },
+  "dpo_12.jpg": {
+    "image_path": "dataset\\original\\dpo_12.jpg",
+    "width": 984,
+    "height": 1230,
+    "bboxes": [
+      [
+        142,
+        275,
+        844,
+        977
+      ]
+    ]
+  }
+}

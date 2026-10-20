@@ -1,0 +1,51 @@
+{
+  "experiment": "Fast MTCNN vs MediaPipe \u2014 DPO Bareskrim",
+  "seed": 42,
+  "dataset": {
+    "n_original": 12,
+    "n_augmented": 120,
+    "augmentation_scenarios": [
+      "normal",
+      "low_light",
+      "overexposure",
+      "gaussian_blur",
+      "motion_blur",
+      "iso_noise",
+      "jpeg_artifact",
+      "horizontal_flip",
+      "rotation",
+      "composite"
+    ],
+    "iou_threshold": 0.5
+  },
+  "results": {
+    "FastMTCNN": {
+      "Model": "FastMTCNN",
+      "Total TP": 118,
+      "Total FP": 4,
+      "Total FN": 2,
+      "Precision": 0.9672,
+      "Recall": 0.9833,
+      "F1-Score": 0.9752,
+      "Avg IoU": 0.7497,
+      "Mean Latency (ms)": 92.79,
+      "Throughput (FPS)": 10.78
+    },
+    "MediaPipe": {
+      "Model": "MediaPipe",
+      "Total TP": 104,
+      "Total FP": 0,
+      "Total FN": 16,
+      "Precision": 1.0,
+      "Recall": 0.8667,
+      "F1-Score": 0.9286,
+      "Avg IoU": 0.7703,
+      "Mean Latency (ms)": 5.65,
+      "Throughput (FPS)": 177.01
+    }
+  },
+  "winner": {
+    "accuracy_f1": "FastMTCNN",
+    "speed_fps": "MediaPipe"
+  }
+}

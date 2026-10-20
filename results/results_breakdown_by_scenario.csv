@@ -1,0 +1,21 @@
+Skenario,Model,Precision,Recall,F1-Score,Avg IoU,Latency (ms)
+(1) Normal/Baseline,FastMTCNN,1.0,1.0,1.0,0.756,71.3
+(1) Normal/Baseline,MediaPipe,1.0,1.0,1.0,0.788,5.74
+(2) Low Light,FastMTCNN,1.0,0.917,0.957,0.754,68.73
+(2) Low Light,MediaPipe,1.0,1.0,1.0,0.768,5.74
+(3) Overexposure,FastMTCNN,1.0,0.917,0.957,0.767,50.45
+(3) Overexposure,MediaPipe,1.0,1.0,1.0,0.794,5.68
+(4) Gaussian Blur,FastMTCNN,0.923,1.0,0.96,0.754,59.02
+(4) Gaussian Blur,MediaPipe,1.0,1.0,1.0,0.786,5.69
+(5) Motion Blur,FastMTCNN,0.923,1.0,0.96,0.746,56.2
+(5) Motion Blur,MediaPipe,1.0,1.0,1.0,0.787,5.54
+(6) ISO Noise,FastMTCNN,1.0,1.0,1.0,0.753,105.86
+(6) ISO Noise,MediaPipe,1.0,0.083,0.154,0.579,5.61
+(7) JPEG Artifact,FastMTCNN,1.0,1.0,1.0,0.756,65.26
+(7) JPEG Artifact,MediaPipe,1.0,1.0,1.0,0.788,5.6
+(8) Horizontal Flip,FastMTCNN,1.0,1.0,1.0,0.749,64.16
+(8) Horizontal Flip,MediaPipe,1.0,1.0,1.0,0.777,5.6
+(9) Rotasi Ringan,FastMTCNN,1.0,1.0,1.0,0.704,72.77
+(9) Rotasi Ringan,MediaPipe,1.0,1.0,1.0,0.707,5.65
+(10) Komposit,FastMTCNN,0.857,1.0,0.923,0.761,314.2
+(10) Komposit,MediaPipe,1.0,0.583,0.737,0.739,5.66
