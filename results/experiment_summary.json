@@ -1,5 +1,13 @@
 {
   "experiment": "Fast MTCNN vs MediaPipe \u2014 DPO Bareskrim",
+  "system_hardware": {
+    "cpu_model": "Intel(R) Core(TM) Ultra 7 255HX",
+    "cpu_cores_physical": 20,
+    "cpu_cores_logical": 20,
+    "ram_total_gb": 31.43,
+    "os": "Windows 11 (64bit)",
+    "python_version": "3.10.22"
+  },
   "seed": 42,
   "dataset": {
     "n_original": 12,
@@ -21,27 +29,27 @@
   "results": {
     "FastMTCNN": {
       "Model": "FastMTCNN",
-      "Total TP": 118,
-      "Total FP": 4,
-      "Total FN": 2,
-      "Precision": 0.9672,
-      "Recall": 0.9833,
-      "F1-Score": 0.9752,
-      "Avg IoU": 0.7497,
-      "Mean Latency (ms)": 92.79,
-      "Throughput (FPS)": 10.78
+      "Total TP": 119,
+      "Total FP": 6,
+      "Total FN": 1,
+      "Precision": 0.952,
+      "Recall": 0.9917,
+      "F1-Score": 0.9714,
+      "Avg IoU": 0.7475,
+      "Mean Latency (ms)": 82.43,
+      "Throughput (FPS)": 12.13
     },
     "MediaPipe": {
       "Model": "MediaPipe",
       "Total TP": 104,
-      "Total FP": 0,
+      "Total FP": 1,
       "Total FN": 16,
-      "Precision": 1.0,
+      "Precision": 0.9905,
       "Recall": 0.8667,
-      "F1-Score": 0.9286,
-      "Avg IoU": 0.7703,
-      "Mean Latency (ms)": 5.65,
-      "Throughput (FPS)": 177.01
+      "F1-Score": 0.9244,
+      "Avg IoU": 0.772,
+      "Mean Latency (ms)": 5.42,
+      "Throughput (FPS)": 184.63
     }
   },
   "winner": {
