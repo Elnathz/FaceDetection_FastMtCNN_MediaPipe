@@ -29,27 +29,27 @@
   "results": {
     "FastMTCNN": {
       "Model": "FastMTCNN",
-      "Total TP": 119,
-      "Total FP": 6,
-      "Total FN": 1,
-      "Precision": 0.952,
-      "Recall": 0.9917,
-      "F1-Score": 0.9714,
-      "Avg IoU": 0.7475,
-      "Mean Latency (ms)": 82.43,
-      "Throughput (FPS)": 12.13
+      "Total TP": 120,
+      "Total FP": 3,
+      "Total FN": 0,
+      "Precision": 0.9756,
+      "Recall": 1.0,
+      "F1-Score": 0.9877,
+      "Avg IoU": 0.7504,
+      "Mean Latency (ms)": 89.53,
+      "Throughput (FPS)": 11.17
     },
     "MediaPipe": {
       "Model": "MediaPipe",
-      "Total TP": 104,
-      "Total FP": 1,
-      "Total FN": 16,
-      "Precision": 0.9905,
-      "Recall": 0.8667,
-      "F1-Score": 0.9244,
-      "Avg IoU": 0.772,
-      "Mean Latency (ms)": 5.42,
-      "Throughput (FPS)": 184.63
+      "Total TP": 109,
+      "Total FP": 0,
+      "Total FN": 11,
+      "Precision": 1.0,
+      "Recall": 0.9083,
+      "F1-Score": 0.952,
+      "Avg IoU": 0.7722,
+      "Mean Latency (ms)": 5.41,
+      "Throughput (FPS)": 184.69
     }
   },
   "winner": {
