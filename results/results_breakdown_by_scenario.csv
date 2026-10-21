@@ -1,21 +1,21 @@
 Skenario,Model,Precision,Recall,F1-Score,Avg IoU,Latency (ms)
-(1) Normal/Baseline,FastMTCNN,1.0,1.0,1.0,0.756,69.34
-(1) Normal/Baseline,MediaPipe,1.0,1.0,1.0,0.788,5.35
-(2) Low Light,FastMTCNN,1.0,1.0,1.0,0.758,69.66
-(2) Low Light,MediaPipe,1.0,1.0,1.0,0.781,5.68
-(3) Overexposure,FastMTCNN,1.0,1.0,1.0,0.763,52.88
-(3) Overexposure,MediaPipe,1.0,1.0,1.0,0.787,5.35
-(4) Gaussian Blur,FastMTCNN,0.923,1.0,0.96,0.754,58.44
-(4) Gaussian Blur,MediaPipe,1.0,1.0,1.0,0.788,5.43
-(5) Motion Blur,FastMTCNN,1.0,1.0,1.0,0.752,68.43
-(5) Motion Blur,MediaPipe,1.0,1.0,1.0,0.788,5.46
-(6) ISO Noise,FastMTCNN,1.0,1.0,1.0,0.752,121.22
-(6) ISO Noise,MediaPipe,1.0,0.333,0.5,0.73,5.32
-(7) JPEG Artifact,FastMTCNN,0.923,1.0,0.96,0.756,67.64
-(7) JPEG Artifact,MediaPipe,1.0,1.0,1.0,0.788,5.36
-(8) Horizontal Flip,FastMTCNN,1.0,1.0,1.0,0.749,67.74
-(8) Horizontal Flip,MediaPipe,1.0,1.0,1.0,0.777,5.37
-(9) Rotasi Ringan,FastMTCNN,1.0,1.0,1.0,0.711,66.21
-(9) Rotasi Ringan,MediaPipe,1.0,1.0,1.0,0.702,5.39
-(10) Komposit,FastMTCNN,0.923,1.0,0.96,0.754,253.79
-(10) Komposit,MediaPipe,1.0,0.75,0.857,0.762,5.44
+(1) Normal/Baseline,FastMTCNN,1.0,1.0,1.0,0.756,71.23
+(1) Normal/Baseline,MediaPipe,1.0,1.0,1.0,0.788,5.69
+(2) Low Light,FastMTCNN,1.0,1.0,1.0,0.753,71.91
+(2) Low Light,MediaPipe,1.0,1.0,1.0,0.779,5.69
+(3) Overexposure,FastMTCNN,1.0,1.0,1.0,0.771,58.85
+(3) Overexposure,MediaPipe,1.0,1.0,1.0,0.786,5.7
+(4) Gaussian Blur,FastMTCNN,0.923,1.0,0.96,0.753,58.38
+(4) Gaussian Blur,MediaPipe,1.0,1.0,1.0,0.784,5.67
+(5) Motion Blur,FastMTCNN,0.923,1.0,0.96,0.757,54.24
+(5) Motion Blur,MediaPipe,1.0,1.0,1.0,0.775,5.6
+(6) ISO Noise,FastMTCNN,1.0,1.0,1.0,0.757,110.83
+(6) ISO Noise,MediaPipe,1.0,0.167,0.286,0.659,5.49
+(7) JPEG Artifact,FastMTCNN,1.0,1.0,1.0,0.757,68.39
+(7) JPEG Artifact,MediaPipe,1.0,1.0,1.0,0.788,5.57
+(8) Horizontal Flip,FastMTCNN,1.0,1.0,1.0,0.749,65.41
+(8) Horizontal Flip,MediaPipe,1.0,1.0,1.0,0.777,5.57
+(9) Rotasi Ringan,FastMTCNN,1.0,1.0,1.0,0.707,63.93
+(9) Rotasi Ringan,MediaPipe,1.0,1.0,1.0,0.693,5.73
+(10) Komposit,FastMTCNN,0.923,1.0,0.96,0.761,234.91
+(10) Komposit,MediaPipe,0.833,0.417,0.556,0.788,5.62

@@ -35,21 +35,21 @@
       "Precision": 0.9756,
       "Recall": 1.0,
       "F1-Score": 0.9877,
-      "Avg IoU": 0.7504,
-      "Mean Latency (ms)": 89.53,
-      "Throughput (FPS)": 11.17
+      "Avg IoU": 0.752,
+      "Mean Latency (ms)": 85.81,
+      "Throughput (FPS)": 11.65
     },
     "MediaPipe": {
       "Model": "MediaPipe",
-      "Total TP": 109,
-      "Total FP": 0,
-      "Total FN": 11,
-      "Precision": 1.0,
-      "Recall": 0.9083,
-      "F1-Score": 0.952,
-      "Avg IoU": 0.7722,
-      "Mean Latency (ms)": 5.41,
-      "Throughput (FPS)": 184.69
+      "Total TP": 103,
+      "Total FP": 1,
+      "Total FN": 17,
+      "Precision": 0.9904,
+      "Recall": 0.8583,
+      "F1-Score": 0.9196,
+      "Avg IoU": 0.7699,
+      "Mean Latency (ms)": 5.63,
+      "Throughput (FPS)": 177.52
     }
   },
   "winner": {
