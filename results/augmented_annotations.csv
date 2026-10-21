@@ -7,7 +7,7 @@ dpo_01_motion_blur.jpg,dpo_01.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_01_iso_noise.jpg,dpo_01.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_01_iso_noise.jpg,348,846,"[[149, 55, 317, 222]]",1
 dpo_01_jpeg_artifact.jpg,dpo_01.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_01_jpeg_artifact.jpg,348,846,"[[149, 55, 317, 222]]",1
 dpo_01_horizontal_flip.jpg,dpo_01.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_01_horizontal_flip.jpg,348,846,"[[30, 55, 198, 222]]",1
-dpo_01_rotation.jpg,dpo_01.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_01_rotation.jpg,348,846,"[[175, 54, 348, 241]]",1
+dpo_01_rotation.jpg,dpo_01.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_01_rotation.jpg,348,846,"[[58, 30, 262, 234]]",1
 dpo_01_composite.jpg,dpo_01.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_01_composite.jpg,348,846,"[[149, 55, 317, 222]]",1
 dpo_02_normal.jpg,dpo_02.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_02_normal.jpg,716,887,"[[101, 203, 614, 716]]",1
 dpo_02_low_light.jpg,dpo_02.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_02_low_light.jpg,716,887,"[[101, 203, 614, 716]]",1
@@ -17,7 +17,7 @@ dpo_02_motion_blur.jpg,dpo_02.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_02_iso_noise.jpg,dpo_02.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_02_iso_noise.jpg,716,887,"[[101, 203, 614, 716]]",1
 dpo_02_jpeg_artifact.jpg,dpo_02.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_02_jpeg_artifact.jpg,716,887,"[[101, 203, 614, 716]]",1
 dpo_02_horizontal_flip.jpg,dpo_02.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_02_horizontal_flip.jpg,716,887,"[[101, 203, 615, 716]]",1
-dpo_02_rotation.jpg,dpo_02.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_02_rotation.jpg,716,887,"[[80, 183, 632, 735]]",1
+dpo_02_rotation.jpg,dpo_02.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_02_rotation.jpg,716,887,"[[64, 168, 645, 749]]",1
 dpo_02_composite.jpg,dpo_02.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_02_composite.jpg,716,887,"[[101, 203, 614, 716]]",1
 dpo_03_normal.jpg,dpo_03.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_03_normal.jpg,810,1440,"[[74, 357, 726, 1008]]",1
 dpo_03_low_light.jpg,dpo_03.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_03_low_light.jpg,810,1440,"[[74, 357, 726, 1008]]",1
@@ -27,7 +27,7 @@ dpo_03_motion_blur.jpg,dpo_03.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_03_iso_noise.jpg,dpo_03.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_03_iso_noise.jpg,810,1440,"[[74, 357, 726, 1008]]",1
 dpo_03_jpeg_artifact.jpg,dpo_03.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_03_jpeg_artifact.jpg,810,1440,"[[74, 357, 726, 1008]]",1
 dpo_03_horizontal_flip.jpg,dpo_03.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_03_horizontal_flip.jpg,810,1440,"[[83, 357, 734, 1008]]",1
-dpo_03_rotation.jpg,dpo_03.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_03_rotation.jpg,810,1440,"[[54, 338, 743, 1027]]",1
+dpo_03_rotation.jpg,dpo_03.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_03_rotation.jpg,810,1440,"[[69, 350, 733, 1015]]",1
 dpo_03_composite.jpg,dpo_03.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_03_composite.jpg,810,1440,"[[74, 357, 726, 1008]]",1
 dpo_04_normal.jpg,dpo_04.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_04_normal.jpg,480,600,"[[73, 147, 408, 483]]",1
 dpo_04_low_light.jpg,dpo_04.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_04_low_light.jpg,480,600,"[[73, 147, 408, 483]]",1
@@ -37,7 +37,7 @@ dpo_04_motion_blur.jpg,dpo_04.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_04_iso_noise.jpg,dpo_04.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_04_iso_noise.jpg,480,600,"[[73, 147, 408, 483]]",1
 dpo_04_jpeg_artifact.jpg,dpo_04.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_04_jpeg_artifact.jpg,480,600,"[[73, 147, 408, 483]]",1
 dpo_04_horizontal_flip.jpg,dpo_04.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_04_horizontal_flip.jpg,480,600,"[[71, 147, 406, 483]]",1
-dpo_04_rotation.jpg,dpo_04.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_04_rotation.jpg,480,600,"[[72, 146, 409, 483]]",1
+dpo_04_rotation.jpg,dpo_04.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_04_rotation.jpg,480,600,"[[70, 145, 410, 484]]",1
 dpo_04_composite.jpg,dpo_04.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_04_composite.jpg,480,600,"[[73, 147, 408, 483]]",1
 dpo_05_normal.jpg,dpo_05.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_05_normal.jpg,591,591,"[[171, 31, 427, 287]]",1
 dpo_05_low_light.jpg,dpo_05.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_05_low_light.jpg,591,591,"[[171, 31, 427, 287]]",1
@@ -47,7 +47,7 @@ dpo_05_motion_blur.jpg,dpo_05.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_05_iso_noise.jpg,dpo_05.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_05_iso_noise.jpg,591,591,"[[171, 31, 427, 287]]",1
 dpo_05_jpeg_artifact.jpg,dpo_05.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_05_jpeg_artifact.jpg,591,591,"[[171, 31, 427, 287]]",1
 dpo_05_horizontal_flip.jpg,dpo_05.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_05_horizontal_flip.jpg,591,591,"[[163, 31, 419, 287]]",1
-dpo_05_rotation.jpg,dpo_05.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_05_rotation.jpg,591,591,"[[134, 15, 424, 306]]",1
+dpo_05_rotation.jpg,dpo_05.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_05_rotation.jpg,591,591,"[[175, 11, 479, 315]]",1
 dpo_05_composite.jpg,dpo_05.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_05_composite.jpg,591,591,"[[171, 31, 427, 287]]",1
 dpo_06_normal.jpg,dpo_06.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_06_normal.jpg,480,600,"[[75, 149, 406, 479]]",1
 dpo_06_low_light.jpg,dpo_06.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_06_low_light.jpg,480,600,"[[75, 149, 406, 479]]",1
@@ -57,7 +57,7 @@ dpo_06_motion_blur.jpg,dpo_06.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_06_iso_noise.jpg,dpo_06.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_06_iso_noise.jpg,480,600,"[[75, 149, 406, 479]]",1
 dpo_06_jpeg_artifact.jpg,dpo_06.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_06_jpeg_artifact.jpg,480,600,"[[75, 149, 406, 479]]",1
 dpo_06_horizontal_flip.jpg,dpo_06.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_06_horizontal_flip.jpg,480,600,"[[73, 149, 404, 479]]",1
-dpo_06_rotation.jpg,dpo_06.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_06_rotation.jpg,480,600,"[[54, 128, 424, 499]]",1
+dpo_06_rotation.jpg,dpo_06.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_06_rotation.jpg,480,600,"[[66, 137, 417, 489]]",1
 dpo_06_composite.jpg,dpo_06.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_06_composite.jpg,480,600,"[[75, 149, 406, 479]]",1
 dpo_07_normal.jpg,dpo_07.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_07_normal.jpg,996,1245,"[[126, 283, 866, 1024]]",1
 dpo_07_low_light.jpg,dpo_07.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_07_low_light.jpg,996,1245,"[[126, 283, 866, 1024]]",1
@@ -67,7 +67,7 @@ dpo_07_motion_blur.jpg,dpo_07.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_07_iso_noise.jpg,dpo_07.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_07_iso_noise.jpg,996,1245,"[[126, 283, 866, 1024]]",1
 dpo_07_jpeg_artifact.jpg,dpo_07.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_07_jpeg_artifact.jpg,996,1245,"[[126, 283, 866, 1024]]",1
 dpo_07_horizontal_flip.jpg,dpo_07.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_07_horizontal_flip.jpg,996,1245,"[[129, 283, 869, 1024]]",1
-dpo_07_rotation.jpg,dpo_07.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_07_rotation.jpg,996,1245,"[[120, 277, 873, 1029]]",1
+dpo_07_rotation.jpg,dpo_07.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_07_rotation.jpg,996,1245,"[[107, 263, 888, 1043]]",1
 dpo_07_composite.jpg,dpo_07.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_07_composite.jpg,996,1245,"[[126, 283, 866, 1024]]",1
 dpo_08_normal.jpg,dpo_08.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_08_normal.jpg,904,1600,"[[168, 405, 611, 847]]",1
 dpo_08_low_light.jpg,dpo_08.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_08_low_light.jpg,904,1600,"[[168, 405, 611, 847]]",1
@@ -77,7 +77,7 @@ dpo_08_motion_blur.jpg,dpo_08.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_08_iso_noise.jpg,dpo_08.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_08_iso_noise.jpg,904,1600,"[[168, 405, 611, 847]]",1
 dpo_08_jpeg_artifact.jpg,dpo_08.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_08_jpeg_artifact.jpg,904,1600,"[[168, 405, 611, 847]]",1
 dpo_08_horizontal_flip.jpg,dpo_08.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_08_horizontal_flip.jpg,904,1600,"[[292, 405, 735, 847]]",1
-dpo_08_rotation.jpg,dpo_08.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_08_rotation.jpg,904,1600,"[[89, 379, 617, 907]]",1
+dpo_08_rotation.jpg,dpo_08.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_08_rotation.jpg,904,1600,"[[140, 394, 614, 867]]",1
 dpo_08_composite.jpg,dpo_08.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_08_composite.jpg,904,1600,"[[168, 405, 611, 847]]",1
 dpo_09_normal.jpg,dpo_09.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_09_normal.jpg,780,624,"[[264, 89, 644, 469]]",1
 dpo_09_low_light.jpg,dpo_09.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_09_low_light.jpg,780,624,"[[264, 89, 644, 469]]",1
@@ -87,7 +87,7 @@ dpo_09_motion_blur.jpg,dpo_09.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_09_iso_noise.jpg,dpo_09.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_09_iso_noise.jpg,780,624,"[[264, 89, 644, 469]]",1
 dpo_09_jpeg_artifact.jpg,dpo_09.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_09_jpeg_artifact.jpg,780,624,"[[264, 89, 644, 469]]",1
 dpo_09_horizontal_flip.jpg,dpo_09.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_09_horizontal_flip.jpg,780,624,"[[135, 89, 516, 469]]",1
-dpo_09_rotation.jpg,dpo_09.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_09_rotation.jpg,780,624,"[[242, 64, 659, 481]]",1
+dpo_09_rotation.jpg,dpo_09.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_09_rotation.jpg,780,624,"[[247, 76, 668, 497]]",1
 dpo_09_composite.jpg,dpo_09.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_09_composite.jpg,780,624,"[[264, 89, 644, 469]]",1
 dpo_10_normal.jpg,dpo_10.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_10_normal.jpg,480,600,"[[72, 139, 410, 477]]",1
 dpo_10_low_light.jpg,dpo_10.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_10_low_light.jpg,480,600,"[[72, 139, 410, 477]]",1
@@ -97,7 +97,7 @@ dpo_10_motion_blur.jpg,dpo_10.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_10_iso_noise.jpg,dpo_10.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_10_iso_noise.jpg,480,600,"[[72, 139, 410, 477]]",1
 dpo_10_jpeg_artifact.jpg,dpo_10.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_10_jpeg_artifact.jpg,480,600,"[[72, 139, 410, 477]]",1
 dpo_10_horizontal_flip.jpg,dpo_10.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_10_horizontal_flip.jpg,480,600,"[[69, 139, 408, 477]]",1
-dpo_10_rotation.jpg,dpo_10.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_10_rotation.jpg,480,600,"[[45, 114, 433, 501]]",1
+dpo_10_rotation.jpg,dpo_10.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_10_rotation.jpg,480,600,"[[40, 108, 438, 507]]",1
 dpo_10_composite.jpg,dpo_10.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_10_composite.jpg,480,600,"[[72, 139, 410, 477]]",1
 dpo_11_normal.jpg,dpo_11.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_11_normal.jpg,480,600,"[[61, 131, 425, 493]]",1
 dpo_11_low_light.jpg,dpo_11.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_11_low_light.jpg,480,600,"[[61, 131, 425, 493]]",1
@@ -107,7 +107,7 @@ dpo_11_motion_blur.jpg,dpo_11.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_11_iso_noise.jpg,dpo_11.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_11_iso_noise.jpg,480,600,"[[61, 131, 425, 493]]",1
 dpo_11_jpeg_artifact.jpg,dpo_11.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_11_jpeg_artifact.jpg,480,600,"[[61, 131, 425, 493]]",1
 dpo_11_horizontal_flip.jpg,dpo_11.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_11_horizontal_flip.jpg,480,600,"[[54, 131, 418, 493]]",1
-dpo_11_rotation.jpg,dpo_11.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_11_rotation.jpg,480,600,"[[50, 118, 438, 505]]",1
+dpo_11_rotation.jpg,dpo_11.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_11_rotation.jpg,480,600,"[[33, 104, 449, 521]]",1
 dpo_11_composite.jpg,dpo_11.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_11_composite.jpg,480,600,"[[61, 131, 425, 493]]",1
 dpo_12_normal.jpg,dpo_12.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_12_normal.jpg,984,1230,"[[141, 274, 844, 977]]",1
 dpo_12_low_light.jpg,dpo_12.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_12_low_light.jpg,984,1230,"[[141, 274, 844, 977]]",1
@@ -117,7 +117,7 @@ dpo_12_motion_blur.jpg,dpo_12.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_12_iso_noise.jpg,dpo_12.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_12_iso_noise.jpg,984,1230,"[[141, 274, 844, 977]]",1
 dpo_12_jpeg_artifact.jpg,dpo_12.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_12_jpeg_artifact.jpg,984,1230,"[[141, 274, 844, 977]]",1
 dpo_12_horizontal_flip.jpg,dpo_12.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_12_horizontal_flip.jpg,984,1230,"[[139, 274, 842, 977]]",1
-dpo_12_rotation.jpg,dpo_12.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_12_rotation.jpg,984,1230,"[[75, 205, 914, 1045]]",1
+dpo_12_rotation.jpg,dpo_12.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_12_rotation.jpg,984,1230,"[[86, 216, 903, 1034]]",1
 dpo_12_composite.jpg,dpo_12.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_12_composite.jpg,984,1230,"[[141, 274, 844, 977]]",1
 dpo_13_normal.jpg,dpo_13.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_13_normal.jpg,720,1280,"[[206, 335, 495, 624]]",1
 dpo_13_low_light.jpg,dpo_13.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_13_low_light.jpg,720,1280,"[[206, 335, 495, 624]]",1
@@ -127,7 +127,7 @@ dpo_13_motion_blur.jpg,dpo_13.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_13_iso_noise.jpg,dpo_13.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_13_iso_noise.jpg,720,1280,"[[206, 335, 495, 624]]",1
 dpo_13_jpeg_artifact.jpg,dpo_13.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_13_jpeg_artifact.jpg,720,1280,"[[206, 335, 495, 624]]",1
 dpo_13_horizontal_flip.jpg,dpo_13.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_13_horizontal_flip.jpg,720,1280,"[[225, 335, 512, 624]]",1
-dpo_13_rotation.jpg,dpo_13.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_13_rotation.jpg,720,1280,"[[189, 328, 493, 632]]",1
+dpo_13_rotation.jpg,dpo_13.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_13_rotation.jpg,720,1280,"[[204, 335, 494, 625]]",1
 dpo_13_composite.jpg,dpo_13.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_13_composite.jpg,720,1280,"[[206, 335, 495, 624]]",1
 dpo_14_normal.jpg,dpo_14.jpg,normal,(1) Normal/Baseline,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_14_normal.jpg,680,844,"[[80, 177, 589, 687]]",1
 dpo_14_low_light.jpg,dpo_14.jpg,low_light,(2) Low Light,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_14_low_light.jpg,680,844,"[[80, 177, 589, 687]]",1
@@ -137,5 +137,5 @@ dpo_14_motion_blur.jpg,dpo_14.jpg,motion_blur,(5) Motion Blur,D:\Kuliah\Semester
 dpo_14_iso_noise.jpg,dpo_14.jpg,iso_noise,(6) ISO Noise,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_14_iso_noise.jpg,680,844,"[[80, 177, 589, 687]]",1
 dpo_14_jpeg_artifact.jpg,dpo_14.jpg,jpeg_artifact,(7) JPEG Artifact,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_14_jpeg_artifact.jpg,680,844,"[[80, 177, 589, 687]]",1
 dpo_14_horizontal_flip.jpg,dpo_14.jpg,horizontal_flip,(8) Horizontal Flip,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_14_horizontal_flip.jpg,680,844,"[[90, 177, 600, 687]]",1
-dpo_14_rotation.jpg,dpo_14.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_14_rotation.jpg,680,844,"[[49, 146, 622, 719]]",1
+dpo_14_rotation.jpg,dpo_14.jpg,rotation,(9) Rotasi Ringan,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_14_rotation.jpg,680,844,"[[36, 132, 637, 733]]",1
 dpo_14_composite.jpg,dpo_14.jpg,composite,(10) Komposit,D:\Kuliah\Semester 5\PCD\FaceDetection_FastMtCNN_MediaPipe\dataset\augmented\dpo_14_composite.jpg,680,844,"[[80, 177, 589, 687]]",1
