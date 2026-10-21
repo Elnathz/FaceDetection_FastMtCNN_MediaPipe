@@ -5,7 +5,7 @@ Komparasi empiris performa deteksi wajah antara arsitektur multi-stage cascaded 
 ## Metadata Penelitian
 * Mata Kuliah: Pengolahan Citra Digital (PCD)
 * Institusi: Universitas Dian Nuswantoro (UDINUS)
-* Dataset: 12 citra primer DPO Bareskrim diperluas menjadi 120 citra uji (10 skenario degradasi terkontrol)
+* Dataset: 14 citra primer DPO Bareskrim diperluas menjadi 140 citra uji (10 skenario degradasi terkontrol)
 * Standar Evaluasi: PASCAL VOC (Intersection over Union >= 0.5)
 * Lingkungan Komputasi: Intel Core Ultra 7 255HX (20C/20T), 31.43 GB RAM, OS Windows 11 (64-bit)
 
@@ -17,51 +17,51 @@ Eksperimen ini mengevaluasi batas operasional dua paradigma deteksi wajah modern
 
 ```text
 Trade-off Arsitektur:
-[Fast MTCNN]   High Robustness (Recall 1.000)  <--->  Low Throughput (11.65 FPS)
-[MediaPipe]    Low Robustness (Recall 0.858)   <--->  High Throughput (177.52 FPS)
+[Fast MTCNN]   High Robustness (Recall 1.000)  <--->  Low Throughput (11.56 FPS)
+[MediaPipe]    Low Robustness (Recall 0.871)   <--->  High Throughput (179.57 FPS)
 ```
 
 ### Temuan Kritis:
-1. Fast MTCNN unggul mutlak dalam keandalan deteksi: Mencapai Recall 1.000 (tidak ada target wajah yang terlewat, FN = 0) dan F1-Score 0.9877 pada seluruh kondisi uji.
-2. MediaPipe unggul mutlak dalam efisiensi komputasi: Menghasilkan latensi inferensi 5.63 ms per frame (177.52 FPS pada CPU), sekitar 15.2 kali lebih cepat dibanding Fast MTCNN (85.81 ms / 11.65 FPS).
-3. Titik Kegagalan MediaPipe: MediaPipe mengalami degradasi performa drastis pada citra dengan noise frekuensi tinggi (ISO sensor noise), dengan Recall merosot ke 0.167 (10 dari 12 wajah gagal terdeteksi).
+1. Fast MTCNN unggul mutlak dalam keandalan deteksi: Mencapai Recall 1.000 (tidak ada target wajah yang terlewat, FN = 0) dan F1-Score 0.9790 pada seluruh 140 citra uji.
+2. MediaPipe unggul mutlak dalam efisiensi komputasi: Menghasilkan latensi inferensi 5.57 ms per frame (179.57 FPS pada CPU), sekitar 15.5 kali lebih cepat dibanding Fast MTCNN (86.49 ms / 11.56 FPS).
+3. Titik Kegagalan MediaPipe: MediaPipe mengalami degradasi performa drastis pada citra dengan noise frekuensi tinggi (ISO sensor noise), dengan Recall merosot ke 0.071 (13 dari 14 wajah gagal terdeteksi).
 
 ---
 
 ## 2. Tabel Hasil Komparasi Global
 
-Metrik dihitung menggunakan micro-averaging pada total 120 citra uji (240 siklus inferensi):
+Metrik dihitung menggunakan micro-averaging pada total 140 citra uji (280 siklus inferensi):
 
 | Metrik Evaluasi | Fast MTCNN | MediaPipe | Selisih Absolut | Model Terbaik |
 | :--- | :---: | :---: | :---: | :---: |
-| True Positive (TP) | 120 | 103 | +17 frame | Fast MTCNN |
-| False Positive (FP) | 3 | 1 | -2 frame | MediaPipe |
-| False Negative (FN) | 0 | 17 | -17 frame | Fast MTCNN |
-| Precision | 0.9756 | 0.9904 | +0.0148 | MediaPipe |
-| Recall | 1.0000 | 0.8583 | +0.1417 | Fast MTCNN |
-| F1-Score | 0.9877 | 0.9196 | +0.0681 | Fast MTCNN |
-| Average IoU | 0.7520 | 0.7699 | +0.0179 | MediaPipe |
-| Latensi Rata-rata (ms) | 85.81 ms | 5.63 ms | -80.18 ms | MediaPipe |
-| Throughput (FPS) | 11.65 FPS | 177.52 FPS | +165.87 FPS | MediaPipe |
+| True Positive (TP) | 140 | 122 | +18 frame | Fast MTCNN |
+| False Positive (FP) | 6 | 1 | -5 frame | MediaPipe |
+| False Negative (FN) | 0 | 18 | -18 frame | Fast MTCNN |
+| Precision | 0.9589 | 0.9919 | +0.0330 | MediaPipe |
+| Recall | 1.0000 | 0.8714 | +0.1286 | Fast MTCNN |
+| F1-Score | 0.9790 | 0.9278 | +0.0512 | Fast MTCNN |
+| Average IoU | 0.7520 | 0.7813 | +0.0293 | MediaPipe |
+| Latensi Rata-rata (ms) | 86.49 ms | 5.57 ms | -80.92 ms | MediaPipe |
+| Throughput (FPS) | 11.56 FPS | 179.57 FPS | +168.01 FPS | MediaPipe |
 
 ---
 
 ## 3. Analisis Performa per Skenario Degradasi
 
-12 citra primer ditransformasikan ke dalam 10 kondisi visual menggunakan pustaka Albumentations dengan sinkronisasi koordinat bounding box (format Pascal VOC: `[xmin, ymin, xmax, ymax]`):
+14 citra primer ditransformasikan ke dalam 10 kondisi visual menggunakan pustaka Albumentations dengan sinkronisasi koordinat bounding box (format Pascal VOC: `[xmin, ymin, xmax, ymax]`):
 
 | ID | Skenario Degradasi | Parameter Transformasi | Fast MTCNN (F1 / Recall) | MediaPipe (F1 / Recall) |
 |---|---|---|:---:|:---:|
 | 01 | Normal / Baseline | Tanpa modifikasi (kontrol) | 1.000 / 1.000 | 1.000 / 1.000 |
 | 02 | Low Light | Brightness [-0.45, -0.30], Contrast [-0.20, 0.00] | 1.000 / 1.000 | 1.000 / 1.000 |
-| 03 | Overexposure | Brightness [0.25, 0.40], Contrast [0.00, 0.15] | 1.000 / 1.000 | 1.000 / 1.000 |
-| 04 | Gaussian Blur | Kernel limit [7, 15] | 0.960 / 1.000 | 1.000 / 1.000 |
-| 05 | Motion Blur | Kernel limit [9, 19] | 0.960 / 1.000 | 1.000 / 1.000 |
-| 06 | ISO Noise | Gaussian noise variance [800, 2500] | 1.000 / 1.000 | 0.286 / 0.167 |
-| 07 | JPEG Artifact | Compression quality [5, 20] | 1.000 / 1.000 | 1.000 / 1.000 |
+| 03 | Overexposure | Brightness [0.25, 0.40], Contrast [0.00, 0.15] | 0.933 / 1.000 | 1.000 / 1.000 |
+| 04 | Gaussian Blur | Kernel limit [7, 15] | 0.966 / 1.000 | 1.000 / 1.000 |
+| 05 | Motion Blur | Kernel limit [9, 19] | 1.000 / 1.000 | 1.000 / 1.000 |
+| 06 | ISO Noise | Gaussian noise variance [800, 2500] | 1.000 / 1.000 | 0.133 / 0.071 |
+| 07 | JPEG Artifact | Compression quality [5, 20] | 0.966 / 1.000 | 1.000 / 1.000 |
 | 08 | Horizontal Flip | Cermin horizontal 100% | 1.000 / 1.000 | 1.000 / 1.000 |
-| 09 | Rotasi Ringan | Rotasi acak limit [-15, +15] derajat | 1.000 / 1.000 | 1.000 / 1.000 |
-| 10 | Komposit | Redup (-35%) + Noise (var 1200) + Blur (kernel 7) | 0.960 / 1.000 | 0.556 / 0.417 |
+| 09 | Rotasi Ringan | Rotasi acak limit [-15, +15] derajat | 0.933 / 1.000 | 1.000 / 1.000 |
+| 10 | Komposit | Redup (-35%) + Noise (var 1200) + Blur (kernel 7) | 1.000 / 1.000 | 0.750 / 0.643 |
 
 ---
 
@@ -78,7 +78,7 @@ Input Citra -> [Feature Extractor (BlazeBlock)] -> [Single-Pass Multi-Scale Anch
 ```
 
 ### Mengapa Fast MTCNN Tahan Terhadap Noise?
-Struktur bertingkat P-Net, R-Net, dan O-Net menerapkan penyaringan bertahap. Jika piksel noise mengaburkan tepi wajah, P-Net tetap mengusulkan kandidat area berdasarkan struktur global, sementara O-Net memverifikasi ulang fitur internal wajah (mata, hidung, mulut). Kelemahannya, proses multi-tahap ini memerlukan siklus komputasi berulang sehingga latensi mencapai 85.81 ms.
+Struktur bertingkat P-Net, R-Net, dan O-Net menerapkan penyaringan bertahap. Jika piksel noise mengaburkan tepi wajah, P-Net tetap mengusulkan kandidat area berdasarkan struktur global, sementara O-Net memverifikasi ulang fitur internal wajah (mata, hidung, mulut). Kelemahannya, proses multi-tahap ini memerlukan siklus komputasi berulang sehingga latensi mencapai 86.49 ms.
 
 ### Mengapa MediaPipe Gagal pada Noise Frekuensi Tinggi?
 BlazeFace dirancang untuk operasi sub-milidetik pada prosesor mobile dengan memotong kedalaman jaringan dan menggunakan konvolusi kedalaman terpisah (depthwise separable convolution). Noise acak berintensitas tinggi merusak kontur gradien spasial yang dibutuhkan anchor detector satu tahap, menyebabkan model melewatkan wajah sepenuhnya tanpa tahap verifikasi sekunder.
@@ -89,10 +89,10 @@ BlazeFace dirancang untuk operasi sub-milidetik pada prosesor mobile dengan memo
 
 ```text
 .
-|-- Dataset PCD 4703 - DPO/          # Data mentah 12 foto DPO per kelompok mahasiswa
+|-- Dataset PCD 4703 - DPO/          # Data mentah foto DPO per kelompok mahasiswa
 |-- dataset/
-|   |-- original/                    # 12 citra standar (dpo_01.jpg s/d dpo_12.jpg)
-|   `-- augmented/                   # 120 citra hasil 10 skenario degradasi
+|   |-- original/                    # 14 citra standar (dpo_01.jpg s/d dpo_14.jpg)
+|   `-- augmented/                   # 140 citra hasil 10 skenario degradasi
 |-- results/
 |   |-- plots/                       # 17 visualisasi analitis (resolusi 300 DPI)
 |   |   |-- augmentation_sample_grid.png
@@ -103,10 +103,10 @@ BlazeFace dirancang untuk operasi sub-milidetik pada prosesor mobile dengan memo
 |   |   |-- metric_comparison_bar.png
 |   |   |-- radar_chart.png
 |   |   `-- sidebyside_*.png
-|   |-- augmented_annotations.csv    # Anotasi BBox 120 citra augmentasi
-|   |-- eval_raw_results.csv         # Log mentah 240 iterasi pengujian
+|   |-- augmented_annotations.csv    # Anotasi BBox 140 citra augmentasi
+|   |-- eval_raw_results.csv         # Log mentah 280 iterasi pengujian
 |   |-- experiment_summary.json      # Metadata hardware dan ringkasan metrik
-|   |-- ground_truth.json            # Database koordinat ground truth 12 citra primer
+|   |-- ground_truth.json            # Database koordinat ground truth 14 citra primer
 |   |-- results_breakdown_by_scenario.csv
 |   `-- results_comparison.csv
 |-- face_detection_comparison.ipynb  # Notebook implementasi dan eksekusi eksperimen
@@ -140,7 +140,7 @@ pip install mediapipe facenet-pytorch "albumentations>=1.3.0" opencv-python pand
 ```bash
 jupyter notebook face_detection_comparison.ipynb
 ```
-Pilih opsi **Run All Cells** untuk menjalankan seluruh pipeline mulai dari ekstraksi ground truth, augmentasi, benchmarking, visualisasi komparatif, hingga ekspor artefak data.
+Pilih opsi **Run All Cells** untuk menjalankan seluruh pipeline mulai dari ekstraksi ground truth, augmentasi, benchmarking, visualisasi komparatif, hingga ekspor artefak data. Seluruh proses berjalan secara dinamis mengikuti jumlah data yang tersedia di folder dataset.
 
 ---
 
@@ -149,7 +149,7 @@ Pilih opsi **Run All Cells** untuk menjalankan seluruh pipeline mulai dari ekstr
 * Skenario CCTV Pengawasan dan Penegakan Hukum (DPO):
   Gunakan Fast MTCNN. Dalam investigasi kriminal, nilai Recall 100% adalah prioritas absolut untuk menghindari risiko lolosnya subjek buronan. Throughput 11 FPS memadai untuk analisis rekaman video pengawas.
 * Skenario Interaktif (Webcam / Presensi / Edge Devices):
-  Gunakan MediaPipe. Throughput 177 FPS memungkinkan eksekusi real-time tanpa latensi terasa pada perangkat berspesifikasi rendah. Jika dioperasikan pada kondisi malam hari, integrasikan filter denoiser (misal: bilateral filter) pada tahap prapemrosesan sebelum citra diumpankan ke model.
+  Gunakan MediaPipe. Throughput 179 FPS memungkinkan eksekusi real-time tanpa latensi terasa pada perangkat berspesifikasi rendah. Jika dioperasikan pada kondisi malam hari, integrasikan filter denoiser (misal: bilateral filter) pada tahap prapemrosesan sebelum citra diumpankan ke model.
 
 ---
 
