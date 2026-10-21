@@ -154,5 +154,31 @@
         977
       ]
     ]
+  },
+  "dpo_13.jpg": {
+    "image_path": "D:\\Kuliah\\Semester 5\\PCD\\FaceDetection_FastMtCNN_MediaPipe\\dataset\\original\\dpo_13.jpg",
+    "width": 720,
+    "height": 1280,
+    "bboxes": [
+      [
+        207,
+        336,
+        495,
+        624
+      ]
+    ]
+  },
+  "dpo_14.jpg": {
+    "image_path": "D:\\Kuliah\\Semester 5\\PCD\\FaceDetection_FastMtCNN_MediaPipe\\dataset\\original\\dpo_14.jpg",
+    "width": 680,
+    "height": 844,
+    "bboxes": [
+      [
+        80,
+        178,
+        589,
+        687
+      ]
+    ]
   }
 }

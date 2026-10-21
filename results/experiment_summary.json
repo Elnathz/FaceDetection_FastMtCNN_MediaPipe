@@ -10,8 +10,8 @@
   },
   "seed": 42,
   "dataset": {
-    "n_original": 12,
-    "n_augmented": 120,
+    "n_original": 14,
+    "n_augmented": 140,
     "augmentation_scenarios": [
       "normal",
       "low_light",
@@ -29,27 +29,27 @@
   "results": {
     "FastMTCNN": {
       "Model": "FastMTCNN",
-      "Total TP": 120,
-      "Total FP": 3,
+      "Total TP": 140,
+      "Total FP": 6,
       "Total FN": 0,
-      "Precision": 0.9756,
+      "Precision": 0.9589,
       "Recall": 1.0,
-      "F1-Score": 0.9877,
+      "F1-Score": 0.979,
       "Avg IoU": 0.752,
-      "Mean Latency (ms)": 85.81,
-      "Throughput (FPS)": 11.65
+      "Mean Latency (ms)": 86.49,
+      "Throughput (FPS)": 11.56
     },
     "MediaPipe": {
       "Model": "MediaPipe",
-      "Total TP": 103,
+      "Total TP": 122,
       "Total FP": 1,
-      "Total FN": 17,
-      "Precision": 0.9904,
-      "Recall": 0.8583,
-      "F1-Score": 0.9196,
-      "Avg IoU": 0.7699,
-      "Mean Latency (ms)": 5.63,
-      "Throughput (FPS)": 177.52
+      "Total FN": 18,
+      "Precision": 0.9919,
+      "Recall": 0.8714,
+      "F1-Score": 0.9278,
+      "Avg IoU": 0.7813,
+      "Mean Latency (ms)": 5.57,
+      "Throughput (FPS)": 179.57
     }
   },
   "winner": {
