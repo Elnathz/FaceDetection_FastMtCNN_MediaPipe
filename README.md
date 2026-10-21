@@ -93,6 +93,11 @@ BlazeFace dirancang untuk operasi sub-milidetik pada prosesor mobile dengan memo
 |-- dataset/
 |   |-- original/                    # 14 citra standar (dpo_01.jpg s/d dpo_14.jpg)
 |   `-- augmented/                   # 140 citra hasil 10 skenario degradasi
+|-- document/                        # Dokumen riset, panduan teknis, dan matriks referensi
+|   |-- KONTRIBUSI_DAN_KERANGKA_PENELITIAN.md # Artikulasi kontribusi, draf Bab 1-5, skrip sidang
+|   |-- PANDUAN_TEKNIS_DAN_BEDAH_NOTEBOOK.md  # Bedah teknis komprehensif 37 cell notebook
+|   |-- Analisis_Referensi_Paper.xlsm         # Matriks pemetaan analisis paper ilmiah
+|   `-- Referensi Paper.xlsx                  # Rekapitulasi pustaka jurnal pendukung
 |-- results/
 |   |-- plots/                       # 17 visualisasi analitis (resolusi 300 DPI)
 |   |   |-- augmentation_sample_grid.png
@@ -110,10 +115,7 @@ BlazeFace dirancang untuk operasi sub-milidetik pada prosesor mobile dengan memo
 |   |-- results_breakdown_by_scenario.csv
 |   `-- results_comparison.csv
 |-- face_detection_comparison.ipynb  # Notebook implementasi dan eksekusi eksperimen
-|-- PANDUAN_TEKNIS_DAN_BEDAH_NOTEBOOK.md # Bedah teknis komprehensif per cell dan teori CV
-|-- Analisis_Referensi_Paper.xlsm    # Matriks analisis referensi penelitian
-|-- Referensi Paper.xlsx             # Rekapitulasi pustaka ilmiah pendukung
-`-- README.md                        # Dokumentasi teknis proyek
+`-- README.md                        # Dokumentasi teknis utama repositori
 ```
 
 ---
